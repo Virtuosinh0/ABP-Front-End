@@ -7,6 +7,7 @@ Sexto andar - Soluções Imobiliárias Inteligentes
 - Geanlucca Zappe Ubialli
 - Kauan Nunes Aguiar
 - Silvio Virtuoso Júnior
+- Yuri Bonfante
 
 ## Descrição do Projeto
 
