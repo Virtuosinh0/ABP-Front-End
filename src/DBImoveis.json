@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "address": "Rua A, 123",
+    "type": "Casa",
+    "size": "120m²",
+    "price": "R$ 500.000"
+  },
+  {
+    "id": 2,
+    "address": "Avenida B, 456",
+    "type": "Apartamento",
+    "size": "80m²",
+    "price": "R$ 350.000"
+  },
+  {
+    "id": 3,
+    "address": "Rua C, 789",
+    "type": "Casa",
+    "size": "150m²",
+    "price": "R$ 700.000"
+  }
+]
