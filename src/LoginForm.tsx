@@ -1,7 +1,11 @@
 import React, { useState, FormEvent } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const LoginForm: React.FC = () => {
+interface LoginFormProps {
+  setLoggedInUser: (username: string) => void;
+}
+
+const LoginForm: React.FC<LoginFormProps> = ({ setLoggedInUser }) => {
   const [username, setUsername] = useState<string>('');
   const [password, setPassword] = useState<string>('');
   const [userType, setUserType] = useState<string>('');
@@ -13,6 +17,7 @@ const LoginForm: React.FC = () => {
     if (userType === 'inquilino') {
       navigate('/inquilino');
     } else if (userType === 'locador') {
+      setLoggedInUser(username); 
       navigate('/locador');
     }
   };
