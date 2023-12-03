@@ -1,8 +1,8 @@
-import React, { useState, useRef, useEffect, useCallback } from 'react';
+import React, { useState, useRef, useEffect, useCallback, ReactNode } from 'react';
 import { Outlet, Link, NavLink } from 'react-router-dom';
 
 interface RootLayoutProps {
-  children: React.ReactNode;
+  children: ReactNode;
 }
 
 const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
@@ -66,7 +66,7 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
             }`}
           >
             <NavLink
-              to="/Locador"
+              to="/locador"
               className={({ isActive }) =>
                 `${navLinkClassName} ${isActive ? 'text-indigo-600' : ''}`
               }
@@ -74,7 +74,7 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
               Home
             </NavLink>
             <NavLink
-              to="/Inquilinos"
+              to="/inquilinos"
               className={({ isActive }) =>
                 `${navLinkClassName} ${isActive ? 'text-indigo-600' : ''}`
               }
@@ -82,7 +82,7 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
               Inquilinos
             </NavLink>
             <NavLink
-              to="/Contas-Receber"
+              to="/contas-receber"
               className={({ isActive }) =>
                 `${navLinkClassName} ${isActive ? 'text-indigo-600' : ''}`
               }
@@ -125,14 +125,14 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
             </svg>
           </div>
         </div>
-      </header>
-      <main className="mx-7 mt-28 flex-grow lg:mx-6">
+        </header>
+        <main className="mx-7 mt-28 flex-grow lg:mx-6">
         <div className="mx-auto max-w-5xl">
-          <Outlet />
+          {children}
         </div>
       </main>
-      {children} {/* Aqui */}
     </>
   );
 };
+
 export default RootLayout;
