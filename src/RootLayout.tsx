@@ -1,7 +1,11 @@
-import React, { useState, useRef, useEffect, useCallback } from 'react';
+import React, { useState, useRef, useEffect, useCallback, ReactNode } from 'react';
 import { Outlet, Link, NavLink } from 'react-router-dom';
 
-const RootLayout = () => {
+interface RootLayoutProps {
+  children: ReactNode;
+}
+
+const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
   const [isScrollingHeader, setIsScrollingHeader] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const headerRef = useRef(null);
@@ -121,10 +125,10 @@ const RootLayout = () => {
             </svg>
           </div>
         </div>
-      </header>
-      <main className="mx-7 mt-28 flex-grow lg:mx-6">
+        </header>
+        <main className="mx-7 mt-28 flex-grow lg:mx-6">
         <div className="mx-auto max-w-5xl">
-          <Outlet />
+          {children}
         </div>
       </main>
     </>
