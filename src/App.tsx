@@ -5,26 +5,54 @@ import Inquilinos from './Inquilinos';
 import Imoveis from './Imoveis';
 import ContasReceber from './ContasReceber';
 import RootLayout from './RootLayout';
-import LoginForm from './LoginForm'; // Presume-se que seja a página inicial de login
+import LoginForm from './LoginForm';
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <Router>
       <Routes>
         {/* Rota para a página de login */}
         <Route path="/" element={<LoginForm />} />
-        
+
         {/* Rota para a página do Locador com layout específico */}
-        <Route path="/locador/*" element={<RootLayout><Locador /></RootLayout>} />
+        <Route
+          path="/Locador/*"
+          element={
+            <RootLayout>
+              <Locador />
+            </RootLayout>
+          }
+        />
 
         {/* Rota para a página de Inquilinos com layout específico */}
-        <Route path="/inquilinos/*" element={<RootLayout><Inquilinos /></RootLayout>} />
-        
+        <Route
+          path="/Inquilinos/*"
+          element={
+            <RootLayout>
+              <Inquilinos />
+            </RootLayout>
+          }
+        />
+
         {/* Rota para a página de Imóveis com layout específico */}
-        <Route path="/imoveis/*" element={<RootLayout><Imoveis /></RootLayout>} />
-        
+        <Route
+          path="/Imoveis/*"
+          element={
+            <RootLayout>
+              <Imoveis />
+            </RootLayout>
+          }
+        />
+
         {/* Rota para a página de Contas a Receber com layout específico */}
-        <Route path="/contas-receber/*" element={<RootLayout><ContasReceber /></RootLayout>} />
+        <Route
+          path="/Contas-Receber/*"
+          element={
+            <RootLayout>
+              <ContasReceber />
+            </RootLayout>
+          }
+        />
       </Routes>
     </Router>
   );
