@@ -4,7 +4,7 @@ interface InquilinosProps {
   user: string;
 }
 
-const Inquilinos: React.FC<InquilinoProps> = ({ user }) => {
+const Inquilinos: React.FC<InquilinosProps> = ({ user }) => {
   return (
     <div className="container">
       <h2>{`Bem-vindo, ${user}!`}</h2>
