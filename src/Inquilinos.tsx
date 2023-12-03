@@ -1,9 +1,13 @@
 import React from 'react';
 
-const Inquilinos: React.FC = () => {
+interface InquilinosProps {
+  user: string;
+}
+
+const Inquilinos: React.FC<InquilinoProps> = ({ user }) => {
   return (
     <div className="container">
-      <h2>Tela de lista de inquilinos!</h2>
+      <h2>{`Bem-vindo, ${user}!`}</h2>
       {/* Adicione aqui os componentes e informações que deseja exibir para os inquilinos */}
     </div>
   );
