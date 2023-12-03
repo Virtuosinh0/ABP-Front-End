@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "imagem": "http://placekitten.com/500/400",
     "address": "Rua A, 123",
     "type": "Casa",
     "size": "120m²",
@@ -8,6 +9,7 @@
   },
   {
     "id": 2,
+    "imagem": "http://placekitten.com/500/400",
     "address": "Avenida B, 456",
     "type": "Apartamento",
     "size": "80m²",
@@ -15,9 +17,18 @@
   },
   {
     "id": 3,
+    "imagem": "http://placekitten.com/500/400",
     "address": "Rua C, 789",
     "type": "Casa",
     "size": "150m²",
     "price": "R$ 700.000"
+  },
+  {
+    "id": 4,
+    "imagem": "http://placekitten.com/500/400",
+    "address": "Rua D, 123",
+    "type": "Casa",
+    "size": "120m²",
+    "price": "R$ 500.000"
   }
 ]
