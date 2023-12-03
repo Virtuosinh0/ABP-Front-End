@@ -10,21 +10,31 @@ const Imoveis = () => {
   return (
     <div className="p-6">
       <h2 className="mb-5 text-3xl font-semibold text-gray-700">Imóveis</h2>
-
-      <nav>
-        <ul className="space-y-3">
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-3 text-gray-700">
+          Propriedades Sob Sua Gestão
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {items.map((item) => (
-            <li key={item.id} className="text-xl">
+            <div key={item.id} className="bg-white p-4 rounded-md shadow-md">
+              <img
+                src={item.imagem}
+                alt={item.nome}
+                className="rounded-md mb-2"
+              />
+              <p className="text-lg font-semibold">
+                Propriedade {item.id}
+              </p>
               <Link
                 to={`/imovel/${item.id}`}
-                className="hover:underlined hover:text-blue-700"
+                className="text-blue-700 hover:underline"
               >
                 {item.address}
               </Link>
-            </li>
+            </div>
           ))}
-        </ul>
-      </nav>
+        </div>
+      </section>
     </div>
   );
 };
