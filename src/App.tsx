@@ -2,11 +2,13 @@ import React, { useState, FormEvent } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Locador from './Locador';
 import Inquilinos from './Inquilinos';
+import Inquilino from './Inquilino';
 import Imoveis from './Imoveis';
 import ContasReceber from './ContasReceber';
 import RootLayout from './RootLayout';
 import LoginForm from './LoginForm';
 import CrudImoveis from './CrudImoveis';
+import Contas from './Contas';
 
 const App: React.FC = () => {
   const [user, setUser] = useState<string>('');
@@ -31,6 +33,8 @@ const App: React.FC = () => {
             </RootLayout>
           }
         />
+
+        <Route path="/inquilino/*" element={<Inquilino />} />
 
         <Route
           path="/inquilinos/*"
@@ -64,6 +68,15 @@ const App: React.FC = () => {
           element={
             <RootLayout>
               <CrudImoveis />
+            </RootLayout>
+          }
+        />
+
+        <Route
+          path="/contas/:id"
+          element={
+            <RootLayout>
+              <Contas />
             </RootLayout>
           }
         />

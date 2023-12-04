@@ -17,11 +17,18 @@ const Imoveis: React.FC<ImoveisProps> = ({ user }) => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {imoveisData.map((item) => (
             <div key={item.id} className="bg-white p-4 rounded-md shadow-md">
-              <Link to={`/imovel/${item.id}`} className="text-blue-700 hover:underline">
-                <img src={item.imagem} alt={item.address} className="rounded-md mb-2" />
+              <Link
+                to={`/imovel/${item.id}`}
+                className="text-blue-700 hover:underline"
+              >
+                <img
+                  src={item.imagem}
+                  alt={item.address}
+                  className="rounded-md mb-2"
+                />
                 <p className="text-lg font-semibold">Propriedade {item.id}</p>
               </Link>
-              
+
               <p>{item.address}</p>
               <p>Tipo: {item.type}</p>
               <p>Tamanho: {item.size}m²</p>
@@ -30,9 +37,12 @@ const Imoveis: React.FC<ImoveisProps> = ({ user }) => {
           ))}
         </div>
       </section>
-      
+
       <div className="mb-5">
-        <Link to="/crud-imoveis" className="bg-indigo-600 text-white px-4 py-2 rounded-md">
+        <Link
+          to="/crud-imoveis"
+          className="bg-indigo-600 text-white px-4 py-2 rounded-md"
+        >
           Gerenciar Imóveis
         </Link>
       </div>

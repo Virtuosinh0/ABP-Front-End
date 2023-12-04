@@ -17,7 +17,7 @@ const LoginForm: React.FC<LoginFormProps> = ({ setLoggedInUser }) => {
     if (userType === 'inquilino') {
       navigate('/inquilino');
     } else if (userType === 'locador') {
-      setLoggedInUser(username); 
+      setLoggedInUser(username);
       navigate('/locador');
     }
   };

@@ -5,7 +5,8 @@
     "address": "Rua A, 123",
     "type": "Casa",
     "size": "120",
-    "price": "500,00"
+    "price": "500,00",
+    "alugado": "N"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "address": "Avenida B, 456",
     "type": "Apartamento",
     "size": "80",
-    "price": "350,00"
+    "price": "350,00",
+    "alugado": "Y"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "address": "Rua C, 789",
     "type": "Casa",
     "size": "150",
-    "price": "700,00"
+    "price": "700,00",
+    "alugado": "N"
   },
   {
     "id": 4,
@@ -29,6 +32,7 @@
     "address": "Rua D, 123",
     "type": "Casa",
     "size": "120",
-    "price": "500,00"
+    "price": "500,00",
+    "alugado": "Y"
   }
 ]

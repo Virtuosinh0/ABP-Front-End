@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nome": "A",
+    "propertyId": 1,
+    "status": "Ativo"
+  },
+  {
+    "id": 2,
+    "nome": "Maria Oliveira",
+    "propertyId": 2,
+    "status": "Ativo"
+  },
+  {
+    "id": 3,
+    "nome": "Pedro Santos",
+    "propertyId": 3,
+    "status": "Inativo"
+  },
+  {
+    "id": 4,
+    "nome": "Ana Souza",
+    "propertyId": 4,
+    "status": "Ativo"
+  }
+]
