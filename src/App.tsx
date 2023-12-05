@@ -38,7 +38,7 @@ const App: React.FC = () => {
         <Route path="/inquilino/:id" element={<Inquilino />} />
 
         <Route
-          path="/inquilinos/*"
+          path="/inquilino/*"
           element={
             <RootLayout>
               <Inquilinos user={user} />
@@ -74,10 +74,10 @@ const App: React.FC = () => {
         />
 
         <Route
-          path="/gerenciar-inquilinos/*" 
+          path="/gerenciar-inquilinos/*"
           element={
             <RootLayout>
-              <GerenciarInquilinos /> 
+              <GerenciarInquilinos />
             </RootLayout>
           }
         />
