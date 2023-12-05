@@ -10,6 +10,7 @@ import LoginForm from './LoginForm';
 import CrudImoveis from './CrudImoveis';
 import Contas from './Contas';
 import GerenciarInquilinos from './GerenciarInquilinos';
+import GerenciarContasReceber from './GerenciarContasReceber';
 
 const App: React.FC = () => {
   const [user, setUser] = useState<string>('');
@@ -41,7 +42,7 @@ const App: React.FC = () => {
           path="/inquilino/*"
           element={
             //<RootLayout>  Retirado para não aparecer a header do Locador na tela do Inquilino
-              <Inquilino user={user} />
+            <Inquilino user={user} />
             //</RootLayout>
           }
         />
@@ -83,14 +84,21 @@ const App: React.FC = () => {
         />
 
         <Route
-          path="/gerenciar-inquilinos/*" 
+          path="/gerenciar-inquilinos/*"
           element={
             <RootLayout>
               <GerenciarInquilinos />
             </RootLayout>
           }
         />
-
+        <Route
+          path="/gerenciar-contas-receber/*"
+          element={
+            <RootLayout>
+              <GerenciarContasReceber />
+            </RootLayout>
+          }
+        />
         <Route
           path="/contas/:id"
           element={
