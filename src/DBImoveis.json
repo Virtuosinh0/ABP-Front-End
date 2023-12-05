@@ -52,5 +52,14 @@
     "size": "110",
     "price": "100,00",
     "alugado": "Y"
+  },
+  {
+    "id": 7,
+    "imagem": "https://media.tenor.com/x8v1oNUOmg4AAAAd/rickroll-roll.gif",
+    "address": "Never gonna Give, You Up",
+    "type": "Música",
+    "size": "140",
+    "price": "1000,00",
+    "alugado": "N"
   }
 ]
