@@ -9,7 +9,7 @@ import RootLayout from './RootLayout';
 import LoginForm from './LoginForm';
 import CrudImoveis from './CrudImoveis';
 import Contas from './Contas';
-import GerenciarInquilinos from './GerenciarInquilinos'; // Certifique-se de importar o componente GerenciarInquilinos
+import GerenciarInquilinos from './GerenciarInquilinos';
 
 const App: React.FC = () => {
   const [user, setUser] = useState<string>('');
@@ -38,7 +38,7 @@ const App: React.FC = () => {
         <Route path="/inquilino/:id" element={<Inquilino />} />
 
         <Route
-          path="/inquilino/*"
+          path="/inquilinos/*"
           element={
             <RootLayout>
               <Inquilinos user={user} />
@@ -74,10 +74,10 @@ const App: React.FC = () => {
         />
 
         <Route
-          path="/gerenciar-inquilinos/*"
+          path="/gerenciar-inquilinos/*" // Adicione esta linha
           element={
             <RootLayout>
-              <GerenciarInquilinos />
+              <GerenciarInquilinos /> // Adicione esta linha
             </RootLayout>
           }
         />
