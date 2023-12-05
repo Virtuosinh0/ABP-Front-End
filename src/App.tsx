@@ -38,6 +38,15 @@ const App: React.FC = () => {
         <Route path="/inquilino/:id" element={<Inquilino />} />
 
         <Route
+          path="/inquilino/*"
+          element={
+            <RootLayout>
+              <Inquilino user={user} />
+            </RootLayout>
+          }
+        />
+
+        <Route
           path="/inquilinos/*"
           element={
             <RootLayout>
