@@ -32,23 +32,6 @@ const Locador: React.FC<LocadorProps> = ({ user }) => {
             mensal, relatórios de vistoria e muito mais.
           </p>
         </section>
-
-        <nav className="mt-6">
-          <h2 className="text-2xl font-semibold mb-3 text-gray-700">
-            Acesso rápido
-          </h2>
-          <ul className="list-disc list-inside">
-            <li>
-              <a href="/contas-receber">Contas a receber</a>
-            </li>
-            <li>
-              <a href="/imoveis">Propriedades sob sua gestão</a>
-            </li>
-            <li>
-              <a href="/inquilinos">Inquilinos de suas propriedades</a>
-            </li>
-          </ul>
-        </nav>
       </main>
     </div>
   );
