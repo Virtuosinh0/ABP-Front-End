@@ -1,4 +1,4 @@
-import React, { useState, FormEvent } from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Locador from './Locador';
 import Inquilinos from './Inquilinos';
@@ -9,6 +9,7 @@ import RootLayout from './RootLayout';
 import LoginForm from './LoginForm';
 import CrudImoveis from './CrudImoveis';
 import Contas from './Contas';
+import GerenciarInquilinos from './GerenciarInquilinos'; // Certifique-se de importar o componente GerenciarInquilinos
 
 const App: React.FC = () => {
   const [user, setUser] = useState<string>('');
@@ -34,7 +35,7 @@ const App: React.FC = () => {
           }
         />
 
-        <Route path="/inquilino/*" element={<Inquilino />} />
+        <Route path="/inquilino/:id" element={<Inquilino />} />
 
         <Route
           path="/inquilinos/*"
@@ -68,6 +69,15 @@ const App: React.FC = () => {
           element={
             <RootLayout>
               <CrudImoveis />
+            </RootLayout>
+          }
+        />
+
+        <Route
+          path="/gerenciar-inquilinos/*" 
+          element={
+            <RootLayout>
+              <GerenciarInquilinos /> 
             </RootLayout>
           }
         />
