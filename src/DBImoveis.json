@@ -34,5 +34,23 @@
     "size": "120",
     "price": "500,00",
     "alugado": "Y"
+  },
+  {
+    "id": 5,
+    "imagem": "https://estilofontana.com.br/images/2021/01/14/01-600078cea2866.jpg?w=910&h=1455&fm=webp&fit=crop",
+    "address": "Rua E, 123",
+    "type": "Apartamento",
+    "size": "300",
+    "price": "1200,00",
+    "alugado": "Y"
+  },
+  {
+    "id": 6,
+    "imagem": "https://img.freepik.com/fotos-premium/um-abrigo-em-ruinas-destacando-a-falta-de-moradia-adequada-para-comunidades-empobrecidas_978035-1407.jpg",
+    "address": "Rua F, 123",
+    "type": "Casa",
+    "size": "110",
+    "price": "100,00",
+    "alugado": "Y"
   }
 ]

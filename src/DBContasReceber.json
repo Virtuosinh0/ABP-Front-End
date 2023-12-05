@@ -94,5 +94,181 @@
       "valorPago": "350,00",
       "dataPagamento": "2023-12-05"
     }
+  },
+  {
+    "id": 13,
+    "propertyId": 2,
+    "detalhesPagamento": {
+      "valorPago": "350,00",
+      "dataPagamento": "2023-01-06"
+    }
+  },
+  {
+    "id": 14,
+    "propertyId": 6,
+    "detalhesPagamento": {
+      "valorPago": "90,00",
+      "dataPagamento": "2023-02-07"
+    }
+  },
+  {
+    "id": 15,
+    "propertyId": 6,
+    "detalhesPagamento": {
+      "valorPago": "90,00",
+      "dataPagamento": "2023-03-07"
+    }
+  },
+  {
+    "id": 16,
+    "propertyId": 6,
+    "detalhesPagamento": {
+      "valorPago": "90,00",
+      "dataPagamento": "2023-04-05"
+    }
+  },
+  {
+    "id": 17,
+    "propertyId": 6,
+    "detalhesPagamento": {
+      "valorPago": "90,00",
+      "dataPagamento": "2023-05-05"
+    }
+  },
+  {
+    "id": 18,
+    "propertyId": 6,
+    "detalhesPagamento": {
+      "valorPago": "90,00",
+      "dataPagamento": "2023-06-07"
+    }
+  },
+  {
+    "id": 19,
+    "propertyId": 6,
+    "detalhesPagamento": {
+      "valorPago": "100,00",
+      "dataPagamento": "2023-07-05"
+    }
+  },
+  {
+    "id": 20,
+    "propertyId": 6,
+    "detalhesPagamento": {
+      "valorPago": "100,00",
+      "dataPagamento": "2023-08-07"
+    }
+  },
+  {
+    "id": 21,
+    "propertyId": 6,
+    "detalhesPagamento": {
+      "valorPago": "100,00",
+      "dataPagamento": "2023-09-05"
+    }
+  },
+  {
+    "id": 22,
+    "propertyId": 6,
+    "detalhesPagamento": {
+      "valorPago": "100,00",
+      "dataPagamento": "2023-10-05"
+    }
+  },
+  {
+    "id": 23,
+    "propertyId": 6,
+    "detalhesPagamento": {
+      "valorPago": "100,00",
+      "dataPagamento": "2023-11-07"
+    }
+  },
+  {
+    "id": 24,
+    "propertyId": 6,
+    "detalhesPagamento": {
+      "valorPago": "100,00",
+      "dataPagamento": "2023-12-05"
+    }
+  },
+  {
+    "id": 25,
+    "propertyId": 5,
+    "detalhesPagamento": {
+      "valorPago": "1200,00",
+      "dataPagamento": "2023-02-07"
+    }
+  },
+  {
+    "id": 26,
+    "propertyId": 5,
+    "detalhesPagamento": {
+      "valorPago": "1200,00",
+      "dataPagamento": "2023-03-07"
+    }
+  },
+  {
+    "id": 27,
+    "propertyId": 5,
+    "detalhesPagamento": {
+      "valorPago": "1200,00",
+      "dataPagamento": "2023-04-05"
+    }
+  },
+  {
+    "id": 28,
+    "propertyId": 5,
+    "detalhesPagamento": {
+      "valorPago": "1200,00",
+      "dataPagamento": "2023-05-05"
+    }
+  },
+  {
+    "id": 29,
+    "propertyId": 5,
+    "detalhesPagamento": {
+      "valorPago": "1200,00",
+      "dataPagamento": "2023-06-07"
+    }
+  },
+  {
+    "id": 30,
+    "propertyId": 5,
+    "detalhesPagamento": {
+      "valorPago": "1200,00",
+      "dataPagamento": "2023-07-05"
+    }
+  },
+  {
+    "id": 31,
+    "propertyId": 5,
+    "detalhesPagamento": {
+      "valorPago": "1200,00",
+      "dataPagamento": "2023-08-07"
+    }
+  },
+  {
+    "id": 32,
+    "propertyId": 5,
+    "detalhesPagamento": {
+      "valorPago": "1200,00",
+      "dataPagamento": "2023-09-05"
+    }
+  },
+  {
+    "id": 33,
+    "propertyId": 5,
+    "detalhesPagamento": {
+      "valorPago": "1200,00",
+      "dataPagamento": "2023-10-05"
+    }
+  },
+  {
+    "id": 34,
+    "propertyId": 5,
+    "detalhesPagamento": {
+      "valorPago": "1200,00",
+      "dataPagamento": "2023-11-07"
+    }
   }
 ]
