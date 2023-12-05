@@ -17,7 +17,7 @@ const Locador: React.FC<LocadorProps> = ({ user }) => {
             gestão de suas propriedades.
           </p>
           <img
-            src="http://placekitten.com/1200/500"
+            src="https://concurseirofeliz.weebly.com/uploads/1/0/0/7/100768724/bemvindo_orig.png"
             alt="Imagem de boas-vindas"
             className="mt-4 rounded-md shadow-md w-full"
           />
