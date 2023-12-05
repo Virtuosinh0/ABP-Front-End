@@ -62,7 +62,6 @@ const Inquilinos: React.FC = () => {
       </section>
 
       <div className="mb-5">
-        {/* Altere o link conforme necessário */}
         <Link
           to="/gerenciar-inquilinos"
           className="bg-indigo-600 text-white px-4 py-2 rounded-md"
