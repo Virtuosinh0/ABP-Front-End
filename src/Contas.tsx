@@ -14,9 +14,9 @@ const Contas: React.FC = () => {
       return dateB.getTime() - dateA.getTime();
     });
 
-  console.log(id);
-  console.log(pagamentos);
-  console.log(contasReceberData);
+  //console.log(id);
+  //console.log(pagamentos);
+  //console.log(contasReceberData);
 
   return (
     <div className="p-6">
