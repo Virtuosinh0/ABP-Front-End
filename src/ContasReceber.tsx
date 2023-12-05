@@ -64,16 +64,6 @@ const ContasReceber: React.FC<ContasReceberProps> = ({ user }) => {
           })}
         </div>
       </section>
-
-      <div className="mb-5">
-        {/* Altere o link conforme necessário */}
-        <Link
-          to="/gerenciar-contas-receber"
-          className="bg-indigo-600 text-white px-4 py-2 rounded-md"
-        >
-          Gerenciar Contas a Receber
-        </Link>
-      </div>
     </div>
   );
 };
