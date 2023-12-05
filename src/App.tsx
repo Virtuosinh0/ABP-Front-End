@@ -40,9 +40,9 @@ const App: React.FC = () => {
         <Route
           path="/inquilino/*"
           element={
-            <RootLayout>
+            //<RootLayout>  Retirado para não aparecer a header do Locador na tela do Inquilino
               <Inquilino user={user} />
-            </RootLayout>
+            //</RootLayout>
           }
         />
 
@@ -83,10 +83,10 @@ const App: React.FC = () => {
         />
 
         <Route
-          path="/gerenciar-inquilinos/*" // Adicione esta linha
+          path="/gerenciar-inquilinos/*" 
           element={
             <RootLayout>
-              <GerenciarInquilinos /> // Adicione esta linha
+              <GerenciarInquilinos />
             </RootLayout>
           }
         />
